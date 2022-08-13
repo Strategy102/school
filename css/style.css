@@ -93,7 +93,6 @@ a{
     -ms-user-select: none;
     user-select: none;
   }
-  /* The actual popup */
   .popup .popuptext {
     visibility: hidden;
     width: 300px;
@@ -107,7 +106,6 @@ a{
     left: 50%;
     margin-left: -80px;
   }
-  /* Popup arrow */
   .popup .popuptext::after {
     content: "";
     position: absolute;
@@ -118,7 +116,6 @@ a{
     border-style: solid;
     border-color: #555 transparent transparent transparent;
   }
-  /* Toggle this class - hide and show the popup */
   .popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
@@ -398,7 +395,6 @@ color: var(--first-color);
 }
 .Services{
     background-color: var(--light-bg);
-    /* background-color: red; */
 }
 .Services .slide {
     text-align: center;
